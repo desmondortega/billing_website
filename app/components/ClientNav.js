@@ -1,10 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
-
-// ClientNav component
-// This component is a navigation bar that includes a logo and links to different pages.
-// It is designed to be responsive, with a hamburger menu for mobile devices.
+import Link from "next/link";
 
 // Client component for navigation with state
 export default function ClientNav() {
@@ -41,7 +38,7 @@ export default function ClientNav() {
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
-        <a
+        <Link
           href="/"
           style={{
             display: "flex",
@@ -57,7 +54,7 @@ export default function ClientNav() {
             style={{ objectFit: "contain" }}
             priority
           />
-        </a>
+        </Link>
       </div>
 
       {/* Hamburger menu icon - visible on mobile */}
@@ -94,41 +91,44 @@ export default function ClientNav() {
         }}
       >
         <li>
-          <a href="/" style={{ color: "var(--primary)", fontSize: "0.875rem" }}>
+          <Link
+            href="/"
+            style={{ color: "var(--primary)", fontSize: "0.875rem" }}
+          >
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/about"
             style={{ color: "var(--primary)", fontSize: "0.875rem" }}
           >
             About Us
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/contact"
             style={{ color: "var(--primary)", fontSize: "0.875rem" }}
           >
             Contact Us
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/services"
             style={{ color: "var(--primary)", fontSize: "0.875rem" }}
           >
             Services
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="/benefits"
             style={{ color: "var(--primary)", fontSize: "0.875rem" }}
           >
             Benefits
-          </a>
+          </Link>
         </li>
       </ul>
 
@@ -147,7 +147,7 @@ export default function ClientNav() {
       >
         <ul className="flex flex-col py-2">
           <li className="py-2 px-4 hover:bg-[rgba(0,0,0,0.05)] transition-colors duration-200">
-            <a
+            <Link
               href="/"
               style={{
                 color: "var(--primary)",
@@ -156,11 +156,11 @@ export default function ClientNav() {
               }}
             >
               Home
-            </a>
+            </Link>
           </li>
           <div className="mx-4 h-[0.5px] bg-gray-200"></div>
           <li className="py-2 px-4 hover:bg-[rgba(0,0,0,0.05)] transition-colors duration-200">
-            <a
+            <Link
               href="/about"
               style={{
                 color: "var(--primary)",
@@ -169,11 +169,11 @@ export default function ClientNav() {
               }}
             >
               About Us
-            </a>
+            </Link>
           </li>
           <div className="mx-4 h-[0.5px] bg-gray-200"></div>
           <li className="py-2 px-4 hover:bg-[rgba(0,0,0,0.05)] transition-colors duration-200">
-            <a
+            <Link
               href="/contact"
               style={{
                 color: "var(--primary)",
@@ -182,11 +182,11 @@ export default function ClientNav() {
               }}
             >
               Contact Us
-            </a>
+            </Link>
           </li>
           <div className="mx-4 h-[0.5px] bg-gray-200"></div>
           <li className="py-2 px-4 hover:bg-[rgba(0,0,0,0.05)] transition-colors duration-200">
-            <a
+            <Link
               href="/services"
               style={{
                 color: "var(--primary)",
@@ -195,11 +195,11 @@ export default function ClientNav() {
               }}
             >
               Services
-            </a>
+            </Link>
           </li>
           <div className="mx-4 h-[0.5px] bg-gray-200"></div>
           <li className="py-2 px-4 hover:bg-[rgba(0,0,0,0.05)] transition-colors duration-200">
-            <a
+            <Link
               href="/benefits"
               style={{
                 color: "var(--primary)",
@@ -208,7 +208,7 @@ export default function ClientNav() {
               }}
             >
               Benefits
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
