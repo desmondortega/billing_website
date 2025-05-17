@@ -115,11 +115,12 @@ export default function About() {
             </p>
 
             <p className="leading-relaxed">
-              We understand that every medical practice is different—that's why
-              our services are designed to adapt to your specialty, size, and
-              workflow. Whether you're a solo practitioner, group clinic, or a
-              growing healthcare network, <strong>Codex Billing</strong> is
-              equipped to be a seamless extension of your back office.
+              We understand that every medical practice is different—that&apos;s
+              why our services are designed to adapt to your specialty, size,
+              and workflow. Whether you&apos;re a solo practitioner, group
+              clinic, or a growing healthcare network,{" "}
+              <strong>Codex Billing</strong> is equipped to be a seamless
+              extension of your back office.
             </p>
           </div>
         </div>
