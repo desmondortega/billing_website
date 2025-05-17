@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
             height: "56px",
             minHeight: "56px",
             color: "#555555",
+            backgroundColor: "var(--secondary)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center" }}>
@@ -52,34 +53,49 @@ export default function RootLayout({ children }) {
           <ul
             style={{
               display: "flex",
-              gap: "1.5rem",
+              gap: "2.0rem",
               listStyle: "none",
               margin: 0,
               padding: 0,
             }}
           >
             <li>
-              <a href="/" style={{ color: "#555555" }}>
+              <a
+                href="/"
+                style={{ color: "var(--primary)", fontSize: "0.875rem" }}
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="/about" style={{ color: "#555555" }}>
-                About us
+              <a
+                href="/about"
+                style={{ color: "var(--primary)", fontSize: "0.875rem" }}
+              >
+                About Us
               </a>
             </li>
             <li>
-              <a href="/contact" style={{ color: "#555555" }}>
-                Contact us
+              <a
+                href="/contact"
+                style={{ color: "var(--primary)", fontSize: "0.875rem" }}
+              >
+                Contact Us
               </a>
             </li>
             <li>
-              <a href="/services" style={{ color: "#555555" }}>
+              <a
+                href="/services"
+                style={{ color: "var(--primary)", fontSize: "0.875rem" }}
+              >
                 Services
               </a>
             </li>
             <li>
-              <a href="/benefits" style={{ color: "#555555" }}>
+              <a
+                href="/benefits"
+                style={{ color: "var(--primary)", fontSize: "0.875rem" }}
+              >
                 Benefits
               </a>
             </li>
