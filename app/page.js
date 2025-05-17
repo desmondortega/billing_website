@@ -121,10 +121,10 @@ export default function Home() {
               <p className="text-gray-700 text-base leading-relaxed">
                 Our expert team understands that no two practices are alike,
                 which is why we customize our services to fit your specialty,
-                size, and systems. Whether you're a solo provider, group clinic,
-                or expanding organization, Codex Billing works as an extension
-                of your back office—ensuring accuracy, transparency, and
-                efficiency every step of the way.
+                size, and systems. Whether you&apos;re a solo provider, group
+                clinic, or expanding organization, Codex Billing works as an
+                extension of your back office—ensuring accuracy, transparency,
+                and efficiency every step of the way.
               </p>
             </div>
           </div>
@@ -173,7 +173,7 @@ export default function Home() {
               ></div>
               <p className="text-gray-700 text-base leading-relaxed mb-4">
                 At Codex Billing, we offer comprehensive Revenue Management
-                Services designed to optimize every step of your practice's
+                Services designed to optimize every step of your practice&apos;s
                 financial cycle. Our trusted solutions are built on years of
                 experience, helping healthcare providers improve cash flow,
                 reduce denials, and gain financial clarity.

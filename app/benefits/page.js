@@ -42,7 +42,7 @@ export default function Benefits() {
               Flexibility & Customization
             </h2>
             <p className="text-gray-700">
-              We tailor our services to your needs. Whether you're using
+              We tailor our services to your needs. Whether you&apos;re using
               TherapyNotes, Tebra, Allscripts, or any EHR/PM system, we
               integrate smoothly and support your workflow.
             </p>
@@ -87,9 +87,9 @@ export default function Benefits() {
               Transparent Communication
             </h2>
             <p className="text-gray-700">
-              With Codex Billing, you're never in the dark. We provide regular
-              reporting, open communication, and dedicated support to keep you
-              informed and confident in your revenue cycle.
+              With Codex Billing, you&apos;re never in the dark. We provide
+              regular reporting, open communication, and dedicated support to
+              keep you informed and confident in your revenue cycle.
             </p>
           </div>
 
@@ -112,8 +112,8 @@ export default function Benefits() {
         {/* Closing Statement - No card styling */}
         <div className="mt-12 pt-8 text-center">
           <p className="text-gray-700 mb-4">
-            At Codex Billing, we're not just a service provider—we're your
-            billing partner. We believe in building long-term relationships
+            At Codex Billing, we&apos;re not just a service provider—we&apos;re
+            your billing partner. We believe in building long-term relationships
             based on trust, performance, and results.
           </p>
           <p className="text-gray-700 font-semibold">
