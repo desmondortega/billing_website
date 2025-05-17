@@ -22,16 +22,44 @@ export default function Home() {
           </div>
           <div className="flex-1 flex justify-center">
             <div className="relative">
+              {/* Decorative blob 1 - tertiary color */}
+              <div
+                className="absolute z-0"
+                style={{
+                  backgroundColor: "var(--tertiary)",
+                  top: "-30px",
+                  left: "-100px",
+                  width: "250px",
+                  height: "250px",
+                  borderRadius: "60% 40% 50% 50% / 40% 50% 50% 60%",
+                  transform: "rotate(10deg)",
+                }}
+              ></div>
+
+              {/* Decorative blob 2 - secondary color */}
+              <div
+                className="absolute z-0"
+                style={{
+                  backgroundColor: "var(--secondary)",
+                  bottom: "-20px",
+                  right: "-70px",
+                  width: "200px",
+                  height: "200px",
+                  borderRadius: "50% 60% 40% 70% / 60% 30% 70% 40%",
+                  transform: "rotate(-15deg)",
+                }}
+              ></div>
+
               <Image
                 src="/home_page_main_trans.png"
                 alt="Professional Medical Billing"
                 width={420}
                 height={320}
-                className="max-w-full h-auto rounded-xl"
+                className="max-w-full h-auto rounded-xl relative z-10"
                 priority
               />
               <div
-                className="absolute inset-x-0 bottom-0 h-1/2 rounded-b-xl"
+                className="absolute inset-x-0 bottom-0 h-1/2 rounded-b-xl z-20"
                 style={{
                   background:
                     "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 70%, rgba(255,255,255, 0.99) 100%",
