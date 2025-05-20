@@ -172,7 +172,7 @@ export default function Home() {
                 style={{ backgroundColor: "var(--tertiary)" }}
               ></div>
               <p className="text-gray-700 text-base leading-relaxed mb-4">
-                At Codex Billing, we offer comprehensive Revenue Management
+                At Codex Medical Management, we offer comprehensive Revenue Management
                 Services designed to optimize every step of your practice&apos;s
                 financial cycle. Our trusted solutions are built on years of
                 experience, helping healthcare providers improve cash flow,
@@ -206,7 +206,7 @@ export default function Home() {
               className="text-3xl font-semibold mb-4"
               style={{ color: "var(--secondary)" }}
             >
-              All kind of Medical Billing Solution for you
+              Medical Billing Solutions For You
             </h2>
             <div
               className="w-16 h-1 mx-auto mb-3"
